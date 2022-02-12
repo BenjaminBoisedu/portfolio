@@ -6,12 +6,13 @@
 	list-style-type: none;
 }
 
-h1.categorie{
-	color:chocolate;
+#bienvenue{
+	color:#5F8CA3;
+	margin-top: 0;
 }
 
 h1.titre{
-	color:lightcoral;
+	color:#FFB6B8;
 }
 
 nav.menu-nav ul li.btn{
@@ -20,15 +21,15 @@ nav.menu-nav ul li.btn{
 }
 
 nav.menu-nav ul li.btn a{
-	color: coral;
+	color: #FFB6B8;
 	text-decoration: none;
-	background-color:lightpink;
-	padding: 20px;
+	background-color:#5F8CA3;
+	padding: 30px;
 }
 
 nav.menu-nav ul li.btn:hover a{
-	color:lightgreen;
-	background-color:lightcoral;
+	color:#5F8CA3;
+	background-color:#FFB6B8;
 	transition: 0.3s all;
 }
 
@@ -63,7 +64,7 @@ div#content div.leftbox h3{
 }
 
 div#content div.leftbox p{
-	color: rgb(37, 10, 134);
+	color: #5F8CA3;
 }
 
 div#content div.rightbox h3{
@@ -71,68 +72,88 @@ div#content div.rightbox h3{
 }
 
 div#content div.rightbox p{
-	color: rgb(37, 10, 134);
+	color: #5F8CA3;
 }
 
 div#content{
-	background-color: lightcoral;
+	background-color: #A2B5BF;
 	margin: 0;
 }
 a{
 	display: inline-block;
-	color:brown;
+	color:#FFB6B8;
 	background-color: white;
 	text-decoration: none;
 	list-style-type: none;
 	padding: 20px;
+	font-size: 20px;
 }
 
 div#back{
 	background-image: url(R.jpg);
 }
 div#content a{
-	background-color: lightcoral;
+	background-color:#A2B5BF ;
 }
 div#content h2{
 	vertical-align: middle;
 }
 footer p{
-	color: coral;
+	color: #A2B5BF;
 }
 h2{
-	color: brown;
+	color:#5F8CA3;
+	padding: 35px;
 }
 body{
-	background-color: lightpink;
+	background-color: #5F8CA3;
 	
 }
 body a{
-	background-color: lightpink;
+	background-color: #5F8CA3;
 }
 body nav{
-	padding: 20px;
-	margin-left: 23cm;
-	margin-top: 1cm;
+	padding: 30px;
+	margin-left: 18cm;
+	margin-top: 8cm;
 
 }
 body h1{
 	margin-left: 23cm;
-	margin-top: 1cm;
+	margin-top: 0cm;
 }
-body input{
-	margin-left: 50cm;
-	margin-top: 5cm;
-	padding: 10px;
-}
+
 header h3{
 	margin-left: 23cm;
 }
 header img{
 	margin-top: 0;
-	background-color: lightpink;
+	background-color: #FFB6B8;
 }
 span.icon{
 	padding: 10px;
 	margin: 10px;
 	
+}
+#gon{
+	position: absolute;
+}
+p.text{
+	color: #5F8CA3;
+}
+a.mail{
+	color:#A2B5BF ;
+}
+p.text{
+	font-size: 20px;
+	color:#A2B5BF ;
+}
+h2.type{
+	font-size: 30px;
+}
+.underline{
+	text-decoration: underline;
+}
+.icon{
+	font-size: 30px;
 }
