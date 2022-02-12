@@ -7,11 +7,11 @@
 }
 
 h1.categorie{
-	color: #9F44DB;
+	color:chocolate;
 }
 
 h1.titre{
-	color:aqua;
+	color:lightcoral;
 }
 
 nav.menu-nav ul li.btn{
@@ -20,15 +20,15 @@ nav.menu-nav ul li.btn{
 }
 
 nav.menu-nav ul li.btn a{
-	color: darkviolet;
+	color: coral;
 	text-decoration: none;
-	background-color: aqua;
+	background-color:lightpink;
 	padding: 20px;
 }
 
 nav.menu-nav ul li.btn:hover a{
-	color: aqua;
-	background-color: darkviolet;
+	color:lightgreen;
+	background-color:lightcoral;
 	transition: 0.3s all;
 }
 
@@ -43,10 +43,11 @@ div#content div.leftbox{
 
 div#content div.rightbox{
 	vertical-align: top;
+	margin: 0;
 }
 
 div#content div.leftbox h3,p,iframe,img{
-	margin: 20px;
+	margin: 40px;
 }
 
 div#content div.rightbox img{
@@ -58,7 +59,7 @@ div#content div h3{
 }
 
 div#content div.leftbox h3{
-	color:magenta ;
+	color:brown ;
 }
 
 div#content div.leftbox p{
@@ -66,7 +67,7 @@ div#content div.leftbox p{
 }
 
 div#content div.rightbox h3{
-	color: magenta;
+	color:brown;
 }
 
 div#content div.rightbox p{
@@ -75,4 +76,63 @@ div#content div.rightbox p{
 
 div#content{
 	background-color: lightcoral;
+	margin: 0;
+}
+a{
+	display: inline-block;
+	color:brown;
+	background-color: white;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 20px;
+}
+
+div#back{
+	background-image: url(R.jpg);
+}
+div#content a{
+	background-color: lightcoral;
+}
+div#content h2{
+	vertical-align: middle;
+}
+footer p{
+	color: coral;
+}
+h2{
+	color: brown;
+}
+body{
+	background-color: lightpink;
+	
+}
+body a{
+	background-color: lightpink;
+}
+body nav{
+	padding: 20px;
+	margin-left: 23cm;
+	margin-top: 1cm;
+
+}
+body h1{
+	margin-left: 23cm;
+	margin-top: 1cm;
+}
+body input{
+	margin-left: 50cm;
+	margin-top: 5cm;
+	padding: 10px;
+}
+header h3{
+	margin-left: 23cm;
+}
+header img{
+	margin-top: 0;
+	background-color: lightpink;
+}
+span.icon{
+	padding: 10px;
+	margin: 10px;
+	
 }

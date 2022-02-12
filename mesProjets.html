@@ -7,6 +7,7 @@
 </head>
 <body>
 	<header>
+		<img src="./Sans titre.png" width="400px" height="400px">
 		<h1 class="titre">
 			<p> 
 				<em><strong>Voici quelques uns de mes projets</strong></em> 
@@ -16,21 +17,33 @@
 	<nav class="menu-nav">
 			<ul>
 	            <li class="btn">
-					<a href="Accueil.html" target="_BLANK">
+					<span class="icon">
+						<ion-icon name="home-outline"></ion-icon>			
+					</span>
+					<a href="Index.html" target="_BLANK">
 						Accueil
 					</a>
 				</li>
 				<li class="btn">
+					<span class="icon">
+						<ion-icon name="heart-outline"></ion-icon>
+					</span>
 					<a href="mesPassions.html" target="_BLANK">
 						Mes passions 
 					</a>
 				</li>
 				<li class="btn">
+					<span class="icon">
+						<ion-icon name="information-circle-outline"></ion-icon>
+					</span>
 					<a href="quiSuis-je.html" target="_BLANK">
 						Qui suis-je 
 					</a>
 				</li>
 				<li class="btn">
+					<span class="icon">
+						<ion-icon name="mail-outline"></ion-icon>
+					</span>
 					<a href="Contact.html" target="_BLANK">
 						Contact 
 					</a>
@@ -40,19 +53,36 @@
 		<div id="content">
 			<div class="leftbox">
 				<div>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/V-zDegS0DV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					<p>
-						Montage sur Nba2K21 
-					</p>
+					<a href="https://www.youtube.com/embed/V-zDegS0DV4" target="_BLANK">
+						<h2>
+							Montage sur Nba2K21
+						</h2> 
+						<img src="./montage.jfif"
+						width="700px">
+					</a>
 				</div>
 			</div>
 				<div class="rightbox">
 					<div>
-						<img src="">
-						<p>
-						Ce site a été réalisé du debut à la fin par mes soins et fait pour l'occassion
-						</p>
+						<h2>
+							Ce site a été réalisé du début à la fin par mes soins et uniquement pour parcoursup
+						</h2>
+						<img src="./codage.jpg"
+						width="500px">
 					</div>
+				</div>	
+				<div class="leftbox">
+					<h2>
+						J'ai refait le logo de l'iut en gardant les mêmes couleurs des différents départements
+					</h2>
+					<img src="./Institut.png">
+				</div>
+				<div class="rightbox">
+                    <h2>
+						Voici mon propre logo<br>
+						La boule qui est pechée est un de mes dessins<br> 
+					</h2>
+					<img src="./Sans titre.png">
 				</div>		
 			</div>
 		</div>
@@ -61,5 +91,7 @@
 			Copyright &copy;	Benjamin - 2021-2022 - All right reserved 
 		</p>
 		</footer>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+			<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

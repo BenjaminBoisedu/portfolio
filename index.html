@@ -6,42 +6,70 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<header>
-			<input type="search" placeholder="rechercher sur le site">
-			<h1 class="categorie">
-				Welcome, Yokusou, Bienvenue	
-			</h1>
-			<nav class="menu-nav">
-			<ul>
-				<li class="btn">
-					<a href="mesProjets.html" target="_BLANK">
-					Mes projets
-					</a>
-				</li>
-				<li class="btn">
-					<a href="mesPassions.html" target="_BLANK">
-					Mes passions 
-					</a>
-				</li>
-				<li class="btn">
-					<a href="quiSuis-je.html" target="_BLANK">
-					Qui suis-je 
-					</a>
-				<li class="btn">
-					<a href="Contact.html" target="_BLANK">
-					Contact 
-					</a>
-				</li>
-		    </ul>
-		</nav>
-			
-		</header>
-		<img src="https://www.routesdumonde.com/wp-content/uploads/2019/02/shutterstock_623451695-HD.jpg" width="250" height="250">
-		
-		<footer>
-		<p>
-			Copyright &copy;	Benjamin - 2021-2022 - All right reserved 
-		</p>
-		</footer>
+		<body>
+			<div class="background">
+				<header>
+					<input type="search" placeholder="rechercher sur le site">
+					<h1 class="categorie">
+						Welcome, Yokusou, Bienvenue	
+					</h1>
+				<nav class="menu-nav">
+					<ul>
+						<li class="btn">
+							<span class="icon">
+								<ion-icon name="film-outline"></ion-icon width=" 100px">
+							</span>
+							<a href="mesProjets.html" target="_BLANK">
+							Mes projets
+							</a>
+						</li>
+						<li class="btn">
+							<span class="icon">
+								<ion-icon name="heart-outline"></ion-icon>
+							</span>
+							<a href="mesPassions.html" target="_BLANK">
+							Mes passions 
+							</a>
+						</li>
+						<li class="btn">
+							<span class="icon">
+								<ion-icon name="information-circle-outline"></ion-icon>
+							</span>
+							<a href="quiSuis-je.html" target="_BLANK">
+							Qui suis-je 
+							</a>
+						<li class="btn">
+							<span class="icon">
+								<ion-icon name="mail-outline"></ion-icon>
+							</span>
+							<a href="Contact.html" target="_BLANK">
+							Contact 
+							</a>
+						</li>
+					</ul>
+				</nav>
+				</header>
+			</div>
+		</body>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.background{
+				background-image: url(./R.jfif);
+				background-size: cover;
+				background-repeat: no-repeat;
+				height: 100vh;
+				width: 100%;
+			}
+		</style>
+			<footer>
+			<p>
+				Copyright &copy;	Benjamin - 2021-2022 - All right reserved 
+			</p>
+			</footer>
+			<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+			<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	</body>
 </html>
